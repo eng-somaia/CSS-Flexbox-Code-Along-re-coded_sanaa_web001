@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-header {
+header {flex-shrink: 0;
   background-color: #FBFFF4;
   height: 80px;
   width: 100%;
@@ -29,7 +29,7 @@ main {
   flex-basis: 100px;
   flex-grow: 1;
 }
-footer {
+footer {flex-shrink: 3;
   background-color: #DAEEEF;
   height: 80px;
   width: 100%;
